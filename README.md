@@ -33,8 +33,9 @@ Ensure you have PostgreSQL installed.
 
 Create the database:
 
-createdb universe
-
+  ```bash
+  create database universe
+  ```
 Restore the dump:
 
   ```bash
