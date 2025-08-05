@@ -39,23 +39,10 @@ createdb universe
 
 Restore the dump:
 
-psql -U your_username -d universe -f universe.sql
+  ```bash
+  psql -U your_username -d universe -f universe.sql
+
 Replace your_username with your actual PostgreSQL username.
-
-✅ Challenge Requirements Met
-At least 6 galaxies
-
-At least 6 stars
-
-At least 12 planets
-
-At least 20 moons
-
-Proper use of foreign keys to link tables
-
-Proper constraints (NOT NULL, UNIQUE, etc.)
-
-Successful SQL dump using pg_dump
 
 📚 License
 This project is part of the freeCodeCamp curriculum and intended for educational purposes.
