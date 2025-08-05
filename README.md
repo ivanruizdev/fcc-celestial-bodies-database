@@ -1,5 +1,3 @@
-# fcc-celestial-bodies-database
-
 # 🌌 Celestial Bodies Database
 
 This project was built as part of the [freeCodeCamp](https://www.freecodecamp.org/) Relational Database Certification. It involves designing and implementing a PostgreSQL database that models celestial bodies such as galaxies, stars, planets, and moons.
@@ -41,6 +39,7 @@ Restore the dump:
 
   ```bash
   psql -U your_username -d universe -f universe.sql
+  ```
 
 Replace your_username with your actual PostgreSQL username.
 
